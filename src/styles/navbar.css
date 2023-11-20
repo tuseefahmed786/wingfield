@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.top-navbar ul li {
+    list-style: none;
+}
+.d-flex {
+display: flex;
+}
+.top-navbar ul {
+ gap: 2em;
+}
+.top-navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.graident-layout{
+    background: linear-gradient(95.9deg, #FFFFFF 0%, #8CB0D1 100%);
+    padding:1em 5rem;
+
+}
+.finance-btn{
+background: none;
+border: 1px solid black;
+border-radius: 12px;
+padding: 7px 12px 7px 12px;
+}
+.fav-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
